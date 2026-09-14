@@ -7,7 +7,23 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Layout></Layout>} />
+        <Route
+          path="/"
+          element={
+            <Layout>
+              <>Hello Home Page</>
+            </Layout>
+          }
+        />
+
+        <Route
+          path="/search"
+          element={
+            <Layout>
+              <>Hello Search Page</>
+            </Layout>
+          }
+        />
       </Routes>
     </Router>
   );
