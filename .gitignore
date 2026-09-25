@@ -50,3 +50,19 @@ Thumbs.db
 # Testing & Coverage
 coverage/
 .nyc_output/
+
+# Media (Images & Videos)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.ico
+*.bmp
+*.tiff
+*.mp4
+*.webm
+*.mov
+*.avi
+*.mkv

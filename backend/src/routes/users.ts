@@ -6,10 +6,11 @@ import { check, validationResult } from "express-validator";
 
 const router = express.Router();
 
-// POST /api/users/register
+// register API endpoint - POST /api/users/register
 router.post(
   "/register",
   [
+    // validate the request body
     check("firstName", "First name is required").isString(),
     check("lastName", "Last name is required").isString(),
     check("email", "Email is required").isEmail(),
