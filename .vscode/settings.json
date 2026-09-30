@@ -1,6 +1,6 @@
 {
   "prettier.bracketSameLine": true,
-  "prettier.requireConfig": true,
+  "prettier.requireConfig": false,
   "prettier.useEditorConfig": true,
   "prettier.printWidth": 240,
   "editor.formatOnSave": true,
